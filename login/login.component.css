@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.navbar1{
+background-color: darkred;
+height: 60px;
+text-align:center;
+padding: 10px;
+}
+
+.navbar{
+margin-right: auto ;
+background-color: silver;
+padding: 10px;
+position: fixed;
+right: 10px;
+top: 16%;
+border: 1px solid darkred;
+   }
+
+.container{
+  margin-right: auto ;
+background-color: silver;
+padding: 25px;
+position: fixed;
+left: 42%;
+top: 16%;
+border: 1px solid darkred;
+}

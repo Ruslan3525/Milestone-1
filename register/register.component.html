@@ -1,0 +1,26 @@
+<html>
+<link rel="stylesheet" href="register.component.css">
+<html class="navbar1">
+<p ><a style="text-decoration: none; color: aliceblue; " routerLink=''>Rar edu</a></p>
+<body>
+  <form action="login.component.html">
+    <div class="navbar">
+      <h2>Register</h2>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+
+      <label for="email"><b>Email</b></label><br>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required> <br><br>
+
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required> <br><br>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label><br>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+      <hr>
+      <button type="submit" class="registerbtn">Register</button>
+      <div class="containersignin">
+        <p>Already have an account? <a routerLink = "/Login">Sign in</a>.</p>
+      </div>
+    </div>
+  </form>

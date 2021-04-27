@@ -1,0 +1,46 @@
+body{
+  background: url(source.gif);
+  margin: 0;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar1{
+background-color: darkred;
+height: 60px;
+padding: 10px;
+}
+
+.navbar{
+margin-left: 80%;
+background-color: silver;
+padding: 10px;
+position: fixed;
+right: 10px;
+top: 13%;
+border: 1px solid darkred;
+   }
+
+.container{
+margin-left: 80%;
+position: fixed;
+top: 60%;
+}
+
+table.text {
+width: 80%;
+border-spacing: 0;
+margin-left: 50%;
+}
+
+table.text1 {
+width: 90%;
+border-spacing: 0;
+margin-left: 5%;
+}
+
+table.imgcontainer {
+width: 83%;
+border-spacing: 0;
+}
+
